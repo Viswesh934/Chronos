@@ -1,0 +1,35 @@
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, #1d4ed8 0%, #0f172a 40%, #020617 100%);
+  color: #e2e8f0;
+}
+
+.hero-panel {
+  max-width: 720px;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #93c5fd;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(3rem, 6vw, 6rem);
+  line-height: 1;
+  letter-spacing: -0.08em;
+}
+
+.tagline {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
